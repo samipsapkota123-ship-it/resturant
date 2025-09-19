@@ -12,35 +12,39 @@ const Header = () => {
       id: 1,
       label: "Dashboard",
       icon: <LayoutDashboard />,
+      path:"/Dashboard",
     },
     {
       id: 2,
       label: "Order list",
       icon: <ClipboardList />,
+      path:"/Orderlist"
     },
     {
       id: 3,
       label: "History",
       icon: <History/>,
+      path:"/History"
     },
     {
        id: 4,
       label: "Bills",
       icon: <ReceiptText />,
+      path:"/Bills"
     }
   ]
   return (
   <header className="flex justify-between items-center auto-container">
     <div className="flex items-center gap-[10px]">
       <div className='h-12 w-12 rounded-full' >
-        <img src={logoImage} alt="" className='h-full w-full rounded-full' />
+        <img src={logoImage} alt="" className='h-full w-full rounded-full ' />
       </div>
       <span className='text-2xl font-semibold'>Logo here</span>
     </div>
     <nav>
        <ul className="flex items-center gap-10">
         {menuItems.map((item)=>(
-          <MenuItems key={item.id} itemIcon={item.icon} itemLabel={item.label}/>
+          <MenuItems key={item.id} itemIcon={item.icon} itemLabel={item.label} path={item.path}/>
         ))}
        </ul>
     </nav>
