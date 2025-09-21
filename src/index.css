@@ -11,3 +11,25 @@
     padding-left:20px;
     padding-right: 20px;
 }
+@theme{
+  --color-border-color:oklch(70.7% 0.022 261.325);
+  --color-link-color:oklch(42.4% 0.199 265.638);
+  --color-red:oklch(57.7% 0.245 27.325);
+  --color-green:oklch(52.7% 0.154 150.069);
+  --color-orange:oklch(68.1% 0.162 75.834);
+  --color-blue:oklch(42.4% 0.199 265.638);
+  --color-text-gray:oklch(81.406% 0.00009 271.152);
+}
+.lists {
+  padding: 12px 20px;
+}
+.operation{
+  padding-left:10px;
+  padding-right: 10px;
+}
+.name,.table{
+padding-top: 15px;
+padding-right: 15px;
+padding-bottom: 15px;
+padding-left: 15px;
+}
