@@ -55,9 +55,21 @@ const Dashboard = () => {
                 <div className="font-mediumtext-[12px] text-text-gray"> #12532</div>
               </div>
             </div>
+             <div className="w-[260px] lists rounded-[16px] shadow-[0_2px_8px_rgba(0,0,0,0.08)]">
+              <div className="flex flex-row justify-between w-[200px] ">
+                <div className="flex flex-col gap-[21px]">
+                  <div className="flex flex-col">
+                    <div className="font-medium text-[18px] text-black">Loreom</div>
+                    <div className="font-medium text-[10px] text-text-gray">3 items . Table 3</div>
+                  </div>
+                  <div className="font-medium text-[14px] text-white bg-blue rounded-[9px] text-center operation">C</div>
+                </div>
+                <div className="font-mediumtext-[12px] text-text-gray"> #12532</div>
+              </div>
+            </div>
           </div>
       </div>
-      <aside className="flex flex-col border-l-1 border-l-[#F1F1F1] ">
+      <aside className="flex flex-col border-l-1 border-l-[#F1F1F1] sticky top-0 h-screen bg-white ">
         <div className="flex flex-col gap-4">
           <span className='font-medium text-[20px] '>Coustomer Information</span>
           <div className="w-full flex flex-col gap-[17px]">
