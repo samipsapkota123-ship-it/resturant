@@ -34,8 +34,8 @@ const Header = () => {
     }
   ]
   return (
-<div className='border-b-1 border-border-color '>
-    <header className="flex justify-between items-center auto-container dark:bg-black ">
+<div className='border-b-1 border-border-color w-full fixed top-0 bg-white h-[70px]' >
+    <header className="flex justify-between items-center mt-[10px] pl-[20px] pr-[20px] dark:bg-black ">
     <div className="flex items-center gap-[10px]">
       <div className='h-12 w-12 rounded-full' >
         <img src={logoImage} alt="" className='h-full w-full rounded-full ' />

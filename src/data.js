@@ -1,0 +1,51 @@
+export const RECENTORDERLIST = [
+    {
+      id: 1,
+      title: "Lorem1",
+      totalOrder: 1234,
+      totalItems: 3,
+      tableNo: 3,
+      status: "cancelled",
+    },
+    {
+      id: 2,
+      title: "Lorem2",
+      totalOrder: 1235,
+      totalItems: 5,
+      tableNo: 1,
+      status: "ready",
+    },
+    {
+      id: 3,
+      title: "Lorem1",
+      totalOrder: 1234,
+      totalItems: 3,
+      tableNo: 3,
+      status: "waiting",
+    },
+    {
+      id: 4,
+      title: "Lorem1",
+      totalOrder: 1234,
+      totalItems: 3,
+      tableNo: 3,
+      status: "completed",
+    },
+    {
+      id: 5,
+      title: "Lorem1",
+      totalOrder: 1234,
+      totalItems: 3,
+      tableNo: 3,
+      status: "cancelled",
+    },
+    {
+      id: 6,
+      title: "Lorem1",
+      totalOrder: 1234,
+      totalItems: 3,
+      tableNo: 3,
+      status: "ready",
+    },
+  ];
+
