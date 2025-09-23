@@ -1,10 +1,11 @@
 import RecentOrderList from "./RecentOrderList";
 import { RECENTORDERLIST } from "../../data";
 import { Link } from "react-router-dom";
+import Sidebar from "./Sidebar";
 
 const Orderlist = () => {
   // fixed top-[70px]
-  
+
   return (
     <div className=" w-[calc(100vw-440px)]  mt-[40px]">
       <div className="flex flex-row justify-between items-center">
@@ -18,9 +19,7 @@ const Orderlist = () => {
           See all
         </Link>
       </div>
-      <div
-        className="flex flex-row gap-8 overflow-x-auto overflow-y-hidden  scrollbar-hide"
-      >
+      <div className="flex flex-row gap-8 overflow-x-auto overflow-y-hidden  scrollbar-hide">
         {RECENTORDERLIST.map((order) => (
           <RecentOrderList
             key={order.id}

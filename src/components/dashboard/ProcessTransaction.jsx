@@ -2,7 +2,7 @@ import React from "react";
 
 const ProcessTransaction = () => {
   return (
-    <div className="fixed bottom-0 bg-white rounded-[15px] w-[400px] flex-1 z-[1000]">
+    <div className=" bg-white rounded-[15px] w-[400px] flex-1 z-[1000] mb-[10px]">
       <div className="border-b-[3px] border-dotted border-[#E4E4E4] flex flex-col gap-[10px]">
         <span className="font-medium text-[20px] pt-[10px]">Order Summary</span>
         <div className="rounded-[16px] gap-[10px] opacity-100 pt-[15px] pb-[15px] bg-[#F2F7FA]">

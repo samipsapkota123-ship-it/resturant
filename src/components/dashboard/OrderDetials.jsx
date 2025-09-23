@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 import samarMatal from "../../assets/images/samar-matal.png";
 const OrderDetials = () => {
   return (
     <>
-     <div className="flex flex-col flex-1 gap-[24px] overflow-y-auto scrollbar-hide mt-[200px] px-2.5 ">
+      <div className="flex flex-col flex-1 gap-[24px] overflow-y-auto scrollbar-hide  px-2.5 mt-[10px]">
         <span className="font-medium text-[20px] ">Order Detials</span>
-        <div className="flex flex-1 flex-col pr-[5px] overflow-x-hidden overflow-y-auto scrollbar-hide rounded-[15px]">
+        <div className="flex flex-1 flex-col pr-[5px] overflow-x-hidden overflow-y-auto scrollbar-hide rounded-[15px] ">
           <div className="flex flex-row gap-[10px] w-[100%]">
             <div className="w-[110px] h-[115px] rounded-[17px]">
               <img src={samarMatal} alt="" />
@@ -29,7 +29,7 @@ const OrderDetials = () => {
             </div>
           </div>
           <div className="w-[387px] h-[1.5px] bg-[#E4E4E4] opacity-100 mt-2 mb-2"></div>
-<div className="flex flex-row gap-[18px] w-[100%]">
+          <div className="flex flex-row gap-[18px] w-[100%]">
             <div className="w-[110px] h-[115px] rounded-[17px]">
               <img src={samarMatal} alt="" />
             </div>
@@ -99,11 +99,10 @@ const OrderDetials = () => {
             </div>
           </div>
           <div className="w-[387px] h-[1.5px] bg-[#E4E4E4] opacity-100 mt-2 mb-2"></div>
-          
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default OrderDetials
+export default OrderDetials;

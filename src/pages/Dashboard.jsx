@@ -6,9 +6,16 @@ import Categories from '../components/dashboard/Categories'
 const Dashboard = () => {
   return (
     <>
-      <Orderlist/>
+    <div className='flex flex-row'>
+        <div>
+        <Orderlist/>
        <Categories/>
-      <Sidebar/>
+      </div>
+       <div className='fixed right-0'>
+        <Sidebar/>
+       </div>
+    </div>
+      
     </>
   )
 }

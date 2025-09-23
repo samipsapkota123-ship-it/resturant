@@ -9,7 +9,9 @@ const RecentOrderList = (props) => {
       <div className="flex flex-row justify-between w-[200px]">
         <div className="flex flex-col gap-[21px]">
           <div className="flex flex-col">
-            <div className="font-medium text-[18px] text-black">{props.title}</div>
+            <div className="font-medium text-[18px] text-black">
+              {props.title}
+            </div>
             <div className="font-medium text-[10px] text-text-gray">
               {props.totalItems} items . Table {props.tableNo}
             </div>
