@@ -19,6 +19,8 @@
   --color-orange:oklch(68.1% 0.162 75.834);
   --color-blue:oklch(42.4% 0.199 265.638);
   --color-text-gray:oklch(81.406% 0.00009 271.152);
+  --color-categories-bg:oklch(96.416% 0.00011 271.152);
+  --color-avilable-sold:oklch(81.406% 0.00009 271.152);
 }
 .lists {
   padding: 12px 20px;
