@@ -3,8 +3,8 @@ import Maincoursecontent from "./Maincoursecontent";
 
 const Categories = () => {
   return (
-    <div className="flex flex-col gap-[34px] mt-[15px] ">
-      <div className="w-[calc(100vw-440px)] flex flex-row justify-between gap-[34px] bg-categories-bg  rounded-[12px]">
+    <div className="flex flex-col gap-[34px]  fixed mt-[230px] bg-white ">
+      <div className="w-[calc(100vw-440px)]  flex flex-row justify-between gap-[34px] bg-categories-bg  rounded-[12px]">
         <div className="w-[271px] pt-[10px] pb-[10px] flex items-center justify-center font-medium text-[18px] rounded-[50px]">
           Appetizer
         </div>

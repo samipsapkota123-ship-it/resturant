@@ -7,7 +7,7 @@ const Orderlist = () => {
   // fixed top-[70px]
 
   return (
-    <div className=" w-[calc(100vw-440px)]  mt-[40px]">
+    <div className=" w-[calc(100vw-440px)] fixed bg-white mt-[36px] h-[200px] ">
       <div className="flex flex-row justify-between items-center">
         <div className="text-2xl gap-[10px] font-semibold mt-2.5">
           Order List
